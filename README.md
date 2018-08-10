@@ -18,3 +18,10 @@
         t:9000/api/v1/hello/arg
 `
 
+8. Swagger UI: pase this link into your browser
+
+- `http://localhost:9000/swagger-ui.html`
+
+
+
+
