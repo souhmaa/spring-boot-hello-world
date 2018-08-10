@@ -8,8 +8,13 @@
 - `mvn clean package`
 - `java -jar target/hello-world.jar`
 
-5. To test your app, type these CURL commands:
+6. Health check
+
+- `curl -v -X GET http://localhost:9000/health`
+
+7. To test your app, type these CURL commands:
 
 - `curl -v -H "Content-Type: application/json" -X POST -d {\"id\":\"123\",\"label\":\"123\"} http://localhos
-        t:8080/api/v1/hello/arg
+        t:9000/api/v1/hello/arg
 `
+
